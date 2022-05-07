@@ -28,15 +28,6 @@
             </ul>
         </c:forEach>
 
-        <form:form method="POST" enctype="multipart/form-data" modelAttribute="WebUser">
-            <form:label path="username">Username :</form:label><br/>
-            <form:radiobuttons path="abc" items="${xyz}"/>
-            <form:radiobuttons path="abc" items="${xyz}"/>
-            <form:radiobuttons path="abc" items="${xyz}"/>
-            <form:radiobuttons path="abc" items="${xyz}"/>
-            <br /><br />
-            <input type="submit" value="Create"/>
-        </form:form>
 
         <c:url var="logoutUrl" value="/logout"/>
         <form action="${logoutUrl}" method="post">

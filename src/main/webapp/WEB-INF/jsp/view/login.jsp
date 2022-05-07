@@ -10,7 +10,7 @@
         <c:if test="${param.logout != null}">
             <p>You have logged out.</p>
         </c:if>
-        <h2>Online Course Login</h2>
+        <p style="font-size: larger"><fmt:message key="onlinecourselogin"/></p>
         <form action="login" method="POST">
             <label for="username">Username:</label><br/>
             <input type="text" id="username" name="username" /><br/><br/>
