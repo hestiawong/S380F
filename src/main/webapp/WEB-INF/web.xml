@@ -10,7 +10,7 @@
     </listener>
     <context-param>
         <param-name>javax.servlet.jsp.jstl.fmt.localizationContext</param-name>
-        <param-value>resources.messages</param-value>
+        <param-value>messages</param-value>
     </context-param>
     <filter>
         <filter-name>springSecurityFilterChain</filter-name>
